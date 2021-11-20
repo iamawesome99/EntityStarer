@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "entitystarer",
+  "version": "${version}",
+  "name": "EntityStarer",
+  "description": "mod that makes you stare at entities",
+  "authors": [
+    "iamawesomeuknow99"
+  ],
+  "contact": {
+    "repo": "https://github.com/iamawesome99/EntityStarer"
+  },
+  "license": "MIT",
+  "icon": "assets/entitystarer/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "entitystarer.entitystarer.client.EntityStarerClient"
+    ]
+  },
+  "mixins": [
+    "EntityStarer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.5",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}
